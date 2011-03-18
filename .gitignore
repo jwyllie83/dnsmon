@@ -1,2 +1,2 @@
 *.pyc
-mockapetris/settings-local.py
+mockapetris/settings_local.py

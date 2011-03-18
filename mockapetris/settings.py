@@ -7,4 +7,4 @@ mail_use_TLS = None
 
 # DNS settings.  It's pretty straightforward.
 
-from settings-local import *
+from settings_local import *
