@@ -9,4 +9,4 @@ def lookup(hostname):
 	res = resolver.req(hostname)
 	if len(res.answers) == 0:
 		return []
-	return [x['data'] for x in res.answers]
+	return [x['data'] for x in res.answers if x['typename'] == 'A']
