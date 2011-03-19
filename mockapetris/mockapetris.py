@@ -42,8 +42,6 @@ def run():
 	# This is some pretty ridiculous indenting, but it's pretty
 	# straightforward... look up the address and make sure they're all in
 	# the network
-	import pdb
-	pdb.set_trace()
 	while True:
 		for test in dns_settings:
 			hostname = test['hostname']
