@@ -10,8 +10,6 @@ class Mailer:
 		msg['From'] = From
 		msg['To'] = ', '.join( To )
 
-		import pdb
-		pdb.set_trace()
 		s = smtplib.SMTP(settings.mail_host, settings.mail_port)
 		if settings.mail_use_TLS is True:
 			s.starttls()
