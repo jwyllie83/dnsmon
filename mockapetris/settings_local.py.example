@@ -1,0 +1,19 @@
+mail_host = 'smtp.gmail.com'
+mail_port = 587
+mail_username = 'test_user'
+mail_password = 'hunter2'
+mail_use_TLS = True
+
+mail_from = mail_username + '@gmail.com'
+mail_to = ['big_shot_admin@gmail.com']
+
+dns_settings = [
+	{
+		'hostname' : 'www.google.com',
+		'network'  : '74.125.226.0/24',
+	},
+	{
+		'hostname' : 'www.example.com',
+		'network'  : '192.0.32.10',
+	},
+]
