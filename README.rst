@@ -35,3 +35,11 @@ OS Compatibility
 ================
 
 I've only tested this on Linux, so I'm only sure it works there.
+
+The Name
+========
+
+Dr. Paul Mockapetris proposed the Domain Name System in RFCs 882_ and 883_; he's credited with the invention of DNS along with Jon Postel.  Since Postel is known for so many other things, I used Mockapetris's name instead.  I hope he doesn't mind.
+
+.. _882: http://www.faqs.org/rfcs/rfc882.html
+.. _883: http://www.faqs.org/rfcs/rfc882.html
