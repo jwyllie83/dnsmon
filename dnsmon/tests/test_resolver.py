@@ -1,4 +1,4 @@
-from mockapetris import resolver
+from dnsmon import resolver
 
 def test_resolver():
 	"""Makes sure that the resolver is giving any and all IP addresses"""
