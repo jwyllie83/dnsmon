@@ -28,4 +28,14 @@ Expected Network : %(expected_network)s
 """
 
 # Store things you don't want committed in thr repository (say, mail passwords...)
-from settings_local import *
+try:
+	from settings_local import *
+except ImportError, e:
+	import sys
+	import os
+	base_directory = os.path.dirname(os.path.abspath(__file__))
+	print 'Could not open settings_local.py: you have to create it.  You can do so with the following commands:'
+	print
+	print 'sudo cp %(base_directory)s/settings_local.py.example %(base_directory)s/settings_local.py' % {'base_directory' : base_directory}
+	print 'sudo editor %(base_directory)s/settings_local.py' % {'base_directory' : base_directory}
+	sys.exit(1)
