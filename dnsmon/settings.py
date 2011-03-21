@@ -20,7 +20,7 @@ dns_settings = [
 
 # Message will be tokenized appropriately before sending
 message = """
-mockapetris discovered a mismatched host resolution.
+dnsmon discovered a mismatched host resolution.
 
 Hostname         : %(hostname)s
 Resolved IP      : %(resolved_ip)s
