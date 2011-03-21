@@ -14,6 +14,6 @@ dns_settings = [
 	},
 	{
 		'hostname' : 'www.example.com',
-		'network'  : '192.0.32.10',
+		'network'  : '192.0.32.10/32',
 	},
 ]
