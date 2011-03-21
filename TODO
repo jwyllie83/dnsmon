@@ -1,0 +1,3 @@
+Add a 'resolver' to each DNS config file so you can either leave it as None
+(use the default machine resolver) or send the query to a given DNS address.
+Useful for distributed monitoring.
