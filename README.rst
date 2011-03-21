@@ -36,10 +36,34 @@ OS Compatibility
 
 I've only tested this on Linux, so I'm only sure it works there.
 
+Installation
+============
+
+Easiest installation is with PyPI via pip::
+
+ sudo apt-get install pip; sudo pip install mockapetris
+
+If you don't have pip, you can install it with the older setuptools::
+
+ sudo apt-get install python-setuptools; sudo easy_install mockapetris
+
+Once installed, create a base template for settings::
+
+ cp mockapetris/settings_local.py.example mockapetris/settings_local.py
+
+... and try it out::
+
+ mockapetris --foreground
+
+If all goes well, run it as a daemon::
+
+ mockapetris
+
 The Name
 ========
 
-Dr. Paul Mockapetris proposed the Domain Name System in RFCs 882_ and 883_; he's credited with the invention of DNS along with Jon Postel.  Since Postel is known for so many other things, I used Mockapetris's name instead.  I hope he doesn't mind.
+Dr. Paul Mockapetris proposed the Domain Name System in RFCs 882_ and 883_; he's credited with the invention of DNS along with Jon Postel.  Since Postel is known for so many other things, I used Mockapetris's name instead.  I've never spoken to Dr. Mockapetris before, and he does not endorse this.
 
 .. _882: http://www.faqs.org/rfcs/rfc882.html
 .. _883: http://www.faqs.org/rfcs/rfc882.html
+.. _PyPI:  http://pypi.python.org/
