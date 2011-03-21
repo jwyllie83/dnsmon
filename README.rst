@@ -53,10 +53,10 @@ Once installed, create a base template for settings::
 
 ... and try it out::
 
- dnsmon --foreground
+ dnsmon.py --foreground
 
 If all goes well, run it as a daemon::
 
- dnsmon
+ dnsmon.py
 
 .. _PyPI:  http://pypi.python.org/
