@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
 	name = 'dnsmon',
 	version = "0.1",
-	packages = 'dnsmon'
+	packages = ['dnsmon'],
 	author = 'Jim Wyllie',
 	author_email = 'jwyllie83@gmail.com',
 	description = 'A package to monitor DNS resolution values and report on differences from expected values',
