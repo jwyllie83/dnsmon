@@ -1,2 +1,4 @@
 *.pyc
 dnsmon/settings_local.py
+build
+dnsmon.egg-info
