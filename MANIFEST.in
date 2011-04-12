@@ -1,2 +1,2 @@
 global-include dnsmon/settings_local.py.example
-global-exclude dnsmon/settings_local.py
+exclude settings_local.py
